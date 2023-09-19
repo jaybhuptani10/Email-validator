@@ -48,7 +48,7 @@
     }
     main{
         min-height: 100vh;
-        background-color: #fff;
+        
     }
     .container{
         max-width: 80vw;
@@ -121,13 +121,14 @@
     
     @media only screen and (max-width: 600px){
         body{
-            background-color: lightblue;
+            min-width: 100%;
         }
         .container{
             font-size: 12px;
         }
         nav{
             flex-direction: column;
+            width: 100%;
             
         }
     
@@ -154,10 +155,10 @@
         }
         #container-1 #username{
             font-size: 14px;
-            width: 480px;
+            width: 400px;
         }
         #container-1 .btn{
-            min-width: 70vw;
+            min-width: 50vw;
             font-size: 14px;
         }
         #container-2 h2{
