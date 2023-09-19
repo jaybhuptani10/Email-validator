@@ -19,8 +19,8 @@
     </header>
   
     <main>
-        <div class="container">
-            <h1  style="font-weight: 800; font-size: 30px;" >ENTER YOUR EMAIL TO VALIDATE</h1>
+        <div id="container-1" class="container">
+            <h1>YOUR <br> <span>EMAIL VALIDATOR</span></h1>
             <form action="/submit" method="post">
                 <!-- Text input for username -->
                 <label for="username">ENTER YOUR EMAIL TO VALIDATE:</label>
@@ -33,7 +33,57 @@
                 <input id="submitbtn" class="btn" type="submit" value="Submit">
               </form>
         </div>
-        <div class="container">
+        <div id="container-2" class="container">
+            <h2>YOUR RESULTS</h2>
+            <div id="resultcont" >
+                Your results will be shown here
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+       Copyright | iValidate.com | All rights reserved.
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iValidate E-mail Validator</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">iValidate</div>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT-US</a></li>
+                <li><a href="">CONTACT-US</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <main>
+        <div id="container-1" class="container">
+            <h1>YOUR <br> <span>EMAIL VALIDATOR</span></h1>
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <label for="username">ENTER YOUR EMAIL TO VALIDATE:</label>
+                <input placeholder="E-MAIL" type="text" id="username" name="username" required>
+                <br><br>
+            
+               
+            
+                <!-- Submit button -->
+                <input id="submitbtn" class="btn" type="submit" value="Submit">
+              </form>
+        </div>
+        <div id="container-2" class="container">
             <h2>YOUR RESULTS</h2>
             <div id="resultcont" >
                 Your results will be shown here

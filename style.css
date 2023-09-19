@@ -1,100 +1,170 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
-}
-html,body{
-height: 100%;
-width: 100%;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #111;
-    color: white;
-    padding:19px 12px;
-}
-ul{
-    display: flex;
-    
-}
-ul li{
-    list-style: none;
-    padding: 0 13px;
-    font-size: 12px;
-    font-weight: 700;
-}
-.logo{
-    font-size: 20px;
-    font-weight: 900;
-} 
-ul li a{
-    text-decoration: none;
-    color: wheat;
-}
-ul>li>a:hover{
-    color: rgb(187, 175, 175);
-}
-
-footer{
-    background-color: #111;
-    color: white;
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-}
-main{
-    min-height: 100vh;
-}
-.container{
-    max-width: 80vw;
-    margin: auto;
-    padding: 9px 15px;
-    
-}
-.container h1{
-    padding: 12px 0px;
-}
-.container .btn{
-    background-color: black;
-    color: white;
-    padding: 9px 12px;
-    border-radius: 9px;
-    border: 1px solid  gray;
-    cursor: pointer;
-}
-input[type='text']{
-    padding: 3px 12px;
-    width: 70vw;
-    border: 2px solid black;
-    font-size: 15px;
-}
-
-#resultcont div::first-letter{
-    text-transform: uppercase;
-
-}
-
-#resultcont{
-    border: 2px solid black;
-    padding: 10px;
-}
-
-@media only screen and (max-width: 600px){
-    
-    .container{
-        font-size: 12px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
     }
     nav{
-        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #111;
+        color: white;
+        padding:19px 12px;
+    }
+    ul{
+        display: flex;
         
     }
-
-    .logo{
-        padding: 8px 0px;
-        font-size: 26px;
+    ul li{
+        list-style: none;
+        padding: 0 13px;
+        font-size: 12px;
+        font-weight: 700;
     }
-}
+    .logo{
+        font-size: 20px;
+        font-weight: 900;
+    } 
+    ul li a{
+        text-decoration: none;
+        color: wheat;
+    }
+    ul>li>a:hover{
+        color: rgb(187, 175, 175);
+    }
+    
+    footer{
+        background-color: #111;
+        color: white;
+        display: flex;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        min-height: 100vh;
+        background-color: #fff;
+    }
+    .container{
+        max-width: 80vw;
+        margin: auto;
+        padding: 9px 15px;
+        position: relative;
+        
+    }
+    .container h1{
+        padding: 12px 0px;
+       
+    }
+    .container .btn{
+        background-color: black;
+        color: white;
+        padding: 9px 12px;
+        border-radius: 9px;
+        border: 1px solid  gray;
+        cursor: pointer;
+    }
+    input[type='text']{
+        padding: 3px 12px;
+        width: 70vw;
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+    #resultcont div::first-letter{
+        text-transform: uppercase;
+    
+    }
+    
+    #resultcont{
+        border: 2px solid black;
+        padding: 10px;
+    }
+    #container-1 h1{
+        font-size: 4.5vw;
+        font-weight: 800;
+        margin-bottom: 60px;
+      
+    }
+    #container-1 span{
+        font-size: 5.2vw;
+        border-bottom: 8px solid rgb(207, 32, 32);
+    
+    }
+    #container-1 label{
+        
+        font-size: 2.5vw;
+    }
+    #container-1 #username{
+        font-size: 1.2vw;
+        width: 40vw;
+        margin-top: 10px;
+        border-radius: 6px;
+    }
+    #container-1 .btn{
+        width: 20vw;
+        margin-left: 10vw;
+        font-size: 1.3vw;
+    
+    }
+    #container-2{
+        margin-top: 20px;
+    }
+    #container-2 #resultcont{
+        font-size: 1.5vw;
+    }
+    
+    @media only screen and (max-width: 600px){
+        body{
+            background-color: lightblue;
+        }
+        .container{
+            font-size: 12px;
+        }
+        nav{
+            flex-direction: column;
+            
+        }
+    
+        .logo{
+            padding: 8px 0px;
+            font-size: 26px;
+        }
+        #container-1{
+            margin-bottom: 50px;
+            
+        }
+        #container-1 h1{
+            margin-bottom: 20px;
+        }
+        #container-1 label{
+            font-size: 17px;
+            font-weight: 600;
+            color: rgb(98, 20, 20);
+            
+        }
+        #container-1 input{
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+        #container-1 #username{
+            font-size: 14px;
+            width: 480px;
+        }
+        #container-1 .btn{
+            min-width: 70vw;
+            font-size: 14px;
+        }
+        #container-2 h2{
+            margin-bottom: 10px;
+        }
+        #container-2 #resultcont{
+            font-size: 20px;
+        }
+    }
+    
