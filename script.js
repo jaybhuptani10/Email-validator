@@ -3,7 +3,6 @@
 
 
 
-
 submitbtn.addEventListener("click",async(e)=>{
     e.preventDefault()
     resultcont.innerHTML = `<img width="133" src="loader.svg" alt="">`
@@ -24,20 +23,3 @@ submitbtn.addEventListener("click",async(e)=>{
     resultcont.innerHTML = str
 })
 
-// let results ={
-//     "tag": "",
-//     "free": true,
-//     "role": false,
-//     "user": "jaybhuptani1054",
-//     "email": "jaybhuptani1054@gmail.com",
-//     "score": 0.64,
-//     "state": "deliverable",
-//     "domain": "gmail.com",
-//     "reason": "valid_mailbox",
-//     "mx_found": true,
-//     "catch_all": null,
-//     "disposable": false,
-//     "smtp_check": true,
-//     "did_you_mean": "",
-//     "format_valid": true
-//   }
